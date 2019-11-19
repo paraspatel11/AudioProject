@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE3D2FCF225A9767005B4E76 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D2FCE225A9767005B4E76 /* PlayViewController.swift */; };
+		AE3D2FD1225A9791005B4E76 /* PlayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D2FD0225A9791005B4E76 /* PlayData.swift */; };
+		AE3D2FD5225A9897005B4E76 /* playbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3D2FD2225A9896005B4E76 /* playbtn.png */; };
+		AE3D2FD6225A9897005B4E76 /* nextbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3D2FD3225A9897005B4E76 /* nextbtn.png */; };
+		AE3D2FD7225A9897005B4E76 /* pausebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3D2FD4225A9897005B4E76 /* pausebtn.png */; };
+		AE518B11225C343900999D05 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE518B10225C343900999D05 /* Auth0.plist */; };
+		AE518B13225C364A00999D05 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE518B12225C364A00999D05 /* AuthenticationServices.framework */; };
+		AE7E35E3223AF97200D2F983 /* LaunchIMG.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7E35DB223AF97100D2F983 /* LaunchIMG.png */; };
+		AE7E35E4223AF97200D2F983 /* Register_Now_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7E35DC223AF97100D2F983 /* Register_Now_Button.png */; };
+		AE7E35ED223AFC4700D2F983 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E35EC223AFC4700D2F983 /* RegisterViewController.swift */; };
+		AE7E35EF223AFC5300D2F983 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E35EE223AFC5300D2F983 /* HomeViewController.swift */; };
+		AE7E35F1223AFECD00D2F983 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E35F0223AFECD00D2F983 /* LoginViewController.swift */; };
+		AE7E35F3223AFF3A00D2F983 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E35F2223AFF3A00D2F983 /* TableViewController.swift */; };
+		AE7E35F7223B057C00D2F983 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E35F6223B057C00D2F983 /* SiteCell.swift */; };
+		AE7F187922444250007CD234 /* music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE7F187622444250007CD234 /* music.jpg */; };
+		AE7F187B22444250007CD234 /* btnbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE7F187822444250007CD234 /* btnbackground.jpg */; };
+		AE9C790822541B650067C280 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C790722541B650067C280 /* MyData.swift */; };
+		AE9C790C22541D510067C280 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9C790B22541D510067C280 /* libsqlite3.tbd */; };
+		AE9C790E22541D5C0067C280 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9C790D22541D5C0067C280 /* libsqlite3.0.tbd */; };
+		AE9C79102254217E0067C280 /* MySong.db in Resources */ = {isa = PBXBuildFile; fileRef = AE9C790F2254217E0067C280 /* MySong.db */; };
+		AE9C7916225425B10067C280 /* edSheeran.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE9C7911225425B00067C280 /* edSheeran.jpeg */; };
+		AE9C7917225425B10067C280 /* bruno.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE9C7912225425B00067C280 /* bruno.jpeg */; };
+		AE9C7918225425B10067C280 /* maroon5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE9C7913225425B00067C280 /* maroon5.jpeg */; };
+		AE9C7919225425B10067C280 /* PostMalone.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE9C7914225425B00067C280 /* PostMalone.jpeg */; };
+		AE9C791A225425B10067C280 /* khalid.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE9C7915225425B00067C280 /* khalid.jpeg */; };
+		AE9EDE94222B996F0035C86B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EDE93222B996F0035C86B /* AppDelegate.swift */; };
+		AE9EDE96222B996F0035C86B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9EDE95222B996F0035C86B /* ViewController.swift */; };
+		AE9EDE99222B996F0035C86B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9EDE97222B996F0035C86B /* Main.storyboard */; };
+		AE9EDE9B222B99720035C86B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9EDE9A222B99720035C86B /* Assets.xcassets */; };
+		AE9EDE9E222B99720035C86B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9EDE9C222B99720035C86B /* LaunchScreen.storyboard */; };
+		AEC29E7A22442D6100046742 /* women.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEC29E7722442D6000046742 /* women.jpeg */; };
+		AEC29E7C22442D6100046742 /* man.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEC29E7922442D6100046742 /* man.jpeg */; };
+		AEC29E8222442E1900046742 /* Ed Sheeran.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEC29E7D22442E1600046742 /* Ed Sheeran.mp3 */; };
+		AEC29E8322442E1900046742 /* Maroon 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEC29E7E22442E1700046742 /* Maroon 5.mp3 */; };
+		AEC29E8422442E1900046742 /* Post Malone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEC29E7F22442E1700046742 /* Post Malone.mp3 */; };
+		AEC29E8522442E1900046742 /* Bruno Mars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEC29E8022442E1800046742 /* Bruno Mars.mp3 */; };
+		AEC29E8622442E1900046742 /* Khalid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEC29E8122442E1900046742 /* Khalid.mp3 */; };
+		AEC29E892244365E00046742 /* Login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEC29E882244365E00046742 /* Login.jpg */; };
+		B5CA31B25903EBE9F3E73FEB /* Pods_AudioProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B03A5A3039C26CCD8D8F085 /* Pods_AudioProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B03A5A3039C26CCD8D8F085 /* Pods_AudioProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3D2FCE225A9767005B4E76 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		AE3D2FD0225A9791005B4E76 /* PlayData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayData.swift; sourceTree = "<group>"; };
+		AE3D2FD2225A9896005B4E76 /* playbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbtn.png; sourceTree = "<group>"; };
+		AE3D2FD3225A9897005B4E76 /* nextbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextbtn.png; sourceTree = "<group>"; };
+		AE3D2FD4225A9897005B4E76 /* pausebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebtn.png; sourceTree = "<group>"; };
+		AE518B10225C343900999D05 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		AE518B12225C364A00999D05 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		AE7E35DB223AF97100D2F983 /* LaunchIMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchIMG.png; sourceTree = "<group>"; };
+		AE7E35DC223AF97100D2F983 /* Register_Now_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Register_Now_Button.png; sourceTree = "<group>"; };
+		AE7E35EC223AFC4700D2F983 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AE7E35EE223AFC5300D2F983 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE7E35F0223AFECD00D2F983 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE7E35F2223AFF3A00D2F983 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AE7E35F6223B057C00D2F983 /* SiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
+		AE7F187622444250007CD234 /* music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music.jpg; sourceTree = "<group>"; };
+		AE7F187822444250007CD234 /* btnbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = btnbackground.jpg; sourceTree = "<group>"; };
+		AE9C790722541B650067C280 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		AE9C790B22541D510067C280 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AE9C790D22541D5C0067C280 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AE9C790F2254217E0067C280 /* MySong.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = MySong.db; sourceTree = "<group>"; };
+		AE9C7911225425B00067C280 /* edSheeran.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = edSheeran.jpeg; sourceTree = "<group>"; };
+		AE9C7912225425B00067C280 /* bruno.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bruno.jpeg; sourceTree = "<group>"; };
+		AE9C7913225425B00067C280 /* maroon5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maroon5.jpeg; sourceTree = "<group>"; };
+		AE9C7914225425B00067C280 /* PostMalone.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PostMalone.jpeg; sourceTree = "<group>"; };
+		AE9C7915225425B00067C280 /* khalid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = khalid.jpeg; sourceTree = "<group>"; };
+		AE9EDE90222B996F0035C86B /* AudioProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9EDE93222B996F0035C86B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE9EDE95222B996F0035C86B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE9EDE98222B996F0035C86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE9EDE9A222B99720035C86B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE9EDE9D222B99720035C86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE9EDE9F222B99720035C86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC29E7722442D6000046742 /* women.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = women.jpeg; sourceTree = "<group>"; };
+		AEC29E7922442D6100046742 /* man.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = man.jpeg; sourceTree = "<group>"; };
+		AEC29E7D22442E1600046742 /* Ed Sheeran.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ed Sheeran.mp3"; sourceTree = "<group>"; };
+		AEC29E7E22442E1700046742 /* Maroon 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Maroon 5.mp3"; sourceTree = "<group>"; };
+		AEC29E7F22442E1700046742 /* Post Malone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Post Malone.mp3"; sourceTree = "<group>"; };
+		AEC29E8022442E1800046742 /* Bruno Mars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bruno Mars.mp3"; sourceTree = "<group>"; };
+		AEC29E8122442E1900046742 /* Khalid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Khalid.mp3; sourceTree = "<group>"; };
+		AEC29E882244365E00046742 /* Login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Login.jpg; sourceTree = "<group>"; };
+		E1C2E7A127AA9EF797579F4E /* Pods-AudioProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioProject.release.xcconfig"; path = "Target Support Files/Pods-AudioProject/Pods-AudioProject.release.xcconfig"; sourceTree = "<group>"; };
+		EBE913A48418362A937D2348 /* Pods-AudioProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioProject.debug.xcconfig"; path = "Target Support Files/Pods-AudioProject/Pods-AudioProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE9EDE8D222B996F0035C86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE518B13225C364A00999D05 /* AuthenticationServices.framework in Frameworks */,
+				AE9C790E22541D5C0067C280 /* libsqlite3.0.tbd in Frameworks */,
+				AE9C790C22541D510067C280 /* libsqlite3.tbd in Frameworks */,
+				B5CA31B25903EBE9F3E73FEB /* Pods_AudioProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8C1A89D665CC7349F109291 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBE913A48418362A937D2348 /* Pods-AudioProject.debug.xcconfig */,
+				E1C2E7A127AA9EF797579F4E /* Pods-AudioProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE091D2422444CB000FC5E85 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				AE9C790F2254217E0067C280 /* MySong.db */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		AE518B0F225C336500999D05 /* GoogleAuth */ = {
+			isa = PBXGroup;
+			children = (
+				AE518B10225C343900999D05 /* Auth0.plist */,
+			);
+			path = GoogleAuth;
+			sourceTree = "<group>";
+		};
+		AE9C790922541D2D0067C280 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE9C790A22541D500067C280 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE518B12225C364A00999D05 /* AuthenticationServices.framework */,
+				AE9C790D22541D5C0067C280 /* libsqlite3.0.tbd */,
+				AE9C790B22541D510067C280 /* libsqlite3.tbd */,
+				4B03A5A3039C26CCD8D8F085 /* Pods_AudioProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE9EDE87222B996F0035C86B = {
+			isa = PBXGroup;
+			children = (
+				AE9EDE92222B996F0035C86B /* AudioProject */,
+				AE9EDE91222B996F0035C86B /* Products */,
+				AE9C790A22541D500067C280 /* Frameworks */,
+				A8C1A89D665CC7349F109291 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AE9EDE91222B996F0035C86B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE9EDE90222B996F0035C86B /* AudioProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE9EDE92222B996F0035C86B /* AudioProject */ = {
+			isa = PBXGroup;
+			children = (
+				AE518B0F225C336500999D05 /* GoogleAuth */,
+				AE9C790922541D2D0067C280 /* Frameworks */,
+				AE091D2422444CB000FC5E85 /* Database */,
+				AEC29E6E22442A9200046742 /* Audio */,
+				AE9EDEA8222B99AB0035C86B /* Classes */,
+				AE9EDEA7222B99990035C86B /* Storyboards */,
+				AE9EDEA6222B99910035C86B /* View Controller */,
+				AE9EDEA5222B99890035C86B /* Images */,
+				AE9EDE9F222B99720035C86B /* Info.plist */,
+			);
+			path = AudioProject;
+			sourceTree = "<group>";
+		};
+		AE9EDEA5222B99890035C86B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D2FD3225A9897005B4E76 /* nextbtn.png */,
+				AE3D2FD4225A9897005B4E76 /* pausebtn.png */,
+				AE3D2FD2225A9896005B4E76 /* playbtn.png */,
+				AE9C7912225425B00067C280 /* bruno.jpeg */,
+				AE9C7911225425B00067C280 /* edSheeran.jpeg */,
+				AE9C7915225425B00067C280 /* khalid.jpeg */,
+				AE9C7913225425B00067C280 /* maroon5.jpeg */,
+				AE9C7914225425B00067C280 /* PostMalone.jpeg */,
+				AE7F187822444250007CD234 /* btnbackground.jpg */,
+				AE7F187622444250007CD234 /* music.jpg */,
+				AEC29E882244365E00046742 /* Login.jpg */,
+				AEC29E7922442D6100046742 /* man.jpeg */,
+				AEC29E7722442D6000046742 /* women.jpeg */,
+				AE7E35DB223AF97100D2F983 /* LaunchIMG.png */,
+				AE7E35DC223AF97100D2F983 /* Register_Now_Button.png */,
+				AE9EDE9A222B99720035C86B /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AE9EDEA6222B99910035C86B /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D2FCE225A9767005B4E76 /* PlayViewController.swift */,
+				AE7E35EC223AFC4700D2F983 /* RegisterViewController.swift */,
+				AE7E35EE223AFC5300D2F983 /* HomeViewController.swift */,
+				AE7E35F0223AFECD00D2F983 /* LoginViewController.swift */,
+				AE7E35F2223AFF3A00D2F983 /* TableViewController.swift */,
+				AE9EDE95222B996F0035C86B /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		AE9EDEA7222B99990035C86B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AE9EDE9C222B99720035C86B /* LaunchScreen.storyboard */,
+				AE9EDE97222B996F0035C86B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AE9EDEA8222B99AB0035C86B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D2FD0225A9791005B4E76 /* PlayData.swift */,
+				AE9EDE93222B996F0035C86B /* AppDelegate.swift */,
+				AE7E35F6223B057C00D2F983 /* SiteCell.swift */,
+				AE9C790722541B650067C280 /* MyData.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEC29E6E22442A9200046742 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				AEC29E8022442E1800046742 /* Bruno Mars.mp3 */,
+				AEC29E7D22442E1600046742 /* Ed Sheeran.mp3 */,
+				AEC29E8122442E1900046742 /* Khalid.mp3 */,
+				AEC29E7E22442E1700046742 /* Maroon 5.mp3 */,
+				AEC29E7F22442E1700046742 /* Post Malone.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE9EDE8F222B996F0035C86B /* AudioProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9EDEA2222B99720035C86B /* Build configuration list for PBXNativeTarget "AudioProject" */;
+			buildPhases = (
+				50BED60CB652B32FC1BEC7C2 /* [CP] Check Pods Manifest.lock */,
+				AE9EDE8C222B996F0035C86B /* Sources */,
+				AE9EDE8D222B996F0035C86B /* Frameworks */,
+				AE9EDE8E222B996F0035C86B /* Resources */,
+				C4EC0F56128CD79D68EC18F7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioProject;
+			productName = AudioProject;
+			productReference = AE9EDE90222B996F0035C86B /* AudioProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE9EDE88222B996F0035C86B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Xcode User";
+				TargetAttributes = {
+					AE9EDE8F222B996F0035C86B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AE9EDE8B222B996F0035C86B /* Build configuration list for PBXProject "AudioProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE9EDE87222B996F0035C86B;
+			productRefGroup = AE9EDE91222B996F0035C86B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE9EDE8F222B996F0035C86B /* AudioProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE9EDE8E222B996F0035C86B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9C7917225425B10067C280 /* bruno.jpeg in Resources */,
+				AE3D2FD7225A9897005B4E76 /* pausebtn.png in Resources */,
+				AE7E35E3223AF97200D2F983 /* LaunchIMG.png in Resources */,
+				AEC29E8622442E1900046742 /* Khalid.mp3 in Resources */,
+				AEC29E892244365E00046742 /* Login.jpg in Resources */,
+				AE7F187922444250007CD234 /* music.jpg in Resources */,
+				AE7F187B22444250007CD234 /* btnbackground.jpg in Resources */,
+				AEC29E7A22442D6100046742 /* women.jpeg in Resources */,
+				AE9EDE9E222B99720035C86B /* LaunchScreen.storyboard in Resources */,
+				AE3D2FD5225A9897005B4E76 /* playbtn.png in Resources */,
+				AE518B11225C343900999D05 /* Auth0.plist in Resources */,
+				AEC29E7C22442D6100046742 /* man.jpeg in Resources */,
+				AE3D2FD6225A9897005B4E76 /* nextbtn.png in Resources */,
+				AEC29E8322442E1900046742 /* Maroon 5.mp3 in Resources */,
+				AE9EDE9B222B99720035C86B /* Assets.xcassets in Resources */,
+				AEC29E8422442E1900046742 /* Post Malone.mp3 in Resources */,
+				AE7E35E4223AF97200D2F983 /* Register_Now_Button.png in Resources */,
+				AE9C791A225425B10067C280 /* khalid.jpeg in Resources */,
+				AEC29E8222442E1900046742 /* Ed Sheeran.mp3 in Resources */,
+				AE9EDE99222B996F0035C86B /* Main.storyboard in Resources */,
+				AE9C7916225425B10067C280 /* edSheeran.jpeg in Resources */,
+				AE9C7919225425B10067C280 /* PostMalone.jpeg in Resources */,
+				AE9C79102254217E0067C280 /* MySong.db in Resources */,
+				AE9C7918225425B10067C280 /* maroon5.jpeg in Resources */,
+				AEC29E8522442E1900046742 /* Bruno Mars.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50BED60CB652B32FC1BEC7C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4EC0F56128CD79D68EC18F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudioProject/Pods-AudioProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Auth0/Auth0.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Auth0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleKeychain.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AudioProject/Pods-AudioProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE9EDE8C222B996F0035C86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7E35EF223AFC5300D2F983 /* HomeViewController.swift in Sources */,
+				AE3D2FCF225A9767005B4E76 /* PlayViewController.swift in Sources */,
+				AE7E35F3223AFF3A00D2F983 /* TableViewController.swift in Sources */,
+				AE7E35F7223B057C00D2F983 /* SiteCell.swift in Sources */,
+				AE9EDE96222B996F0035C86B /* ViewController.swift in Sources */,
+				AE3D2FD1225A9791005B4E76 /* PlayData.swift in Sources */,
+				AE9EDE94222B996F0035C86B /* AppDelegate.swift in Sources */,
+				AE7E35F1223AFECD00D2F983 /* LoginViewController.swift in Sources */,
+				AE7E35ED223AFC4700D2F983 /* RegisterViewController.swift in Sources */,
+				AE9C790822541B650067C280 /* MyData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE9EDE97222B996F0035C86B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE9EDE98222B996F0035C86B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE9EDE9C222B99720035C86B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE9EDE9D222B99720035C86B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE9EDEA0222B99720035C86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE9EDEA1222B99720035C86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE9EDEA3222B99720035C86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBE913A48418362A937D2348 /* Pods-AudioProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prog31632.AudioProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE9EDEA4222B99720035C86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C2E7A127AA9EF797579F4E /* Pods-AudioProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AudioProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prog31632.AudioProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE9EDE8B222B996F0035C86B /* Build configuration list for PBXProject "AudioProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9EDEA0222B99720035C86B /* Debug */,
+				AE9EDEA1222B99720035C86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9EDEA2222B99720035C86B /* Build configuration list for PBXNativeTarget "AudioProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9EDEA3222B99720035C86B /* Debug */,
+				AE9EDEA4222B99720035C86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE9EDE88222B996F0035C86B /* Project object */;
+}
